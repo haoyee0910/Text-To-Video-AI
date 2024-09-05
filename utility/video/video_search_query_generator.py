@@ -25,6 +25,7 @@ The depictions have to be extremely visually concrete, like rainy street, or cat
 The list must always contain the most relevant and appropriate query searches.
 ['Car', 'Car driving', 'Car racing', 'Car parked'] <= BAD, because it's 4 strings.
 ['Fast car'] <= GOOD, because it's 1 string.
+['快车'] <= BAD, because the text query is NOT in English.
 ['Un chien', 'une voiture rapide', 'une maison rouge'] <= BAD, because the text query is NOT in English.
   """
 
